@@ -9,7 +9,7 @@
 <a href="https://github.com/nowte/PyTimeliner/releases"><img alt="Latest version" src="https://img.shields.io/github/v/tag/nowte/PyTimeliner?label=Latest%20Version&style=for-the-badge" height="20"/></a>
 <a href="https://pypi.org/project/PyTimeliner/"><img alt="PyPI Version" src="https://img.shields.io/pypi/v/PyTimeliner?style=for-the-badge" height="20"/></a>
 
-**PyTimeliner** is a Python package for working with time-based functions such as formatting, time calculations, and multilingual time expressions. This package provides various tools for handling date and time calculations in multiple languages.
+**PyTimeliner** is a Python package for working with time-based functions such as formatting, time calculations, and multilingual time expressions. This package provides various tools for handling date and time calculations in multiple languages. [PyPi Link](https://pypi.org/project/pytimeliner/)
 
 ## Features
 
