@@ -1,0 +1,45 @@
+# PyPI'ye Yükleme, Güncelleme ve Ekleme Notları
+
+## 1. Yükleme
+- Proje dizinine git:
+cd <proje_dizin_yolu>
+
+- Gerekli dosyaları oluştur:
+
+python setup.py sdist bdist_wheel
+
+Paketi PyPI'ye yükle:
+
+twine upload dist/*
+
+Yüklemenin başarılı olup olmadığını kontrol et:
+
+Terminalde "Upload successful" mesajını arayın.
+Paketinizi PyPI'de kontrol edin:
+
+PyPI üzerinde paket adınızı aratın.
+
+2. Güncelleme
+Proje dosyasında gerekli değişiklikleri yapın (örneğin, setup.py veya içindeki dosyalar).
+
+Versiyonu güncelleyin (setup.py içindeki version numarasını artırın).
+
+Yeni dosyaları oluştur:
+
+
+python setup.py sdist bdist_wheel
+Güncellenmiş paketi yükleyin:
+
+
+twine upload dist/*
+3. Ekleme (Yeni Özellikler veya Dosyalar)
+Gerekli değişiklikleri ve yeni özellikleri ekleyin.
+
+Dosyaları ve dokümantasyonu güncelleyin.
+
+Yine versiyonu güncelleyin (gerekliyse).
+
+Yeni dosyaları oluştur ve yükleyin:
+
+python setup.py sdist bdist_wheel
+twine upload dist/*
